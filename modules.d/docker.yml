@@ -1,0 +1,11 @@
+- module: docker
+  metricsets:
+   - container
+   - cpu
+   - diskio
+   - healthcheck
+   - info
+   - memory
+   - network
+  period: 10s
+  hosts: ["unix:///tmp/docker.sock"]
