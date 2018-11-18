@@ -2,10 +2,10 @@
   metricsets:
    - info
    - container
+   - network
   #  - cpu
   #  - diskio
   #  - healthcheck
   #  - memory
-  #  - network
   period: ${PERIOD:10s}
   hosts: ["unix:///tmp/docker.sock"]
