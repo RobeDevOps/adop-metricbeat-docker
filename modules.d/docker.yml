@@ -3,7 +3,7 @@
    - info
    - container
    - network
-  #  - cpu
+   - cpu
   #  - diskio
   #  - healthcheck
   #  - memory
